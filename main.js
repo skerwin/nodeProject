@@ -8,8 +8,8 @@ http.createServer(function (request, response) {
     response.writeHead(200, {'Content-Type': 'text/plain'});
 
     // 发送响应数据 "Hello World"
-    response.end('兴爷不可能6点醒\n');
-}).listen(8080);
+    response.end('liu liang xing shi ge da sha bi \n');
+}).listen(80);
 
 // 终端打印如下信息
-console.log('Server running at http://127.0.0.1:8080/');
+console.log('Server running at http://127.0.0.1:80/');
